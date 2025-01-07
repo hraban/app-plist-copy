@@ -101,5 +101,7 @@
             meta.license = pkgs.lib.licenses.agpl3Only;
           }) {};
         };
+
+        formatter = pkgs.nixfmt-classic;
       }));
 }
